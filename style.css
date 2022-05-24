@@ -16,22 +16,23 @@
   --white-color: hsl(0, 0%, 100%);
 }
 
-html {
+body {
   font-family: "League Spartan", sans-serif;
+  color: var(--white-color);
   font-weight: 400;
   font-size: 15px;
-  line-height: 1.25;
+  line-height: 1.5;
   text-align: center;
 }
 
 main {
-  width: 374px;
-  margin: 15vh auto;
-  padding: 5%;
+  max-width: 374px;
+  margin: 5vh auto;
+  padding: 3%;
   border: 1px solid black;
 }
 
-.bg-top {
+/* .bg-top {
   content: url("images/bg-pattern-top-mobile.svg");
   position: absolute;
   margin-left: auto;
@@ -40,7 +41,7 @@ main {
   left: 0;
   right: 0;
   text-align: center;
-}
+} */
 
 /* .bg-bottom {
   content: url("images/bg-pattern-bottom-mobile.svg");
@@ -55,13 +56,14 @@ main {
 
 /* intro section */
 .intro {
-  margin: 5% 0;
+  margin-bottom: 5%;
 }
 
 .heading {
   color: var(--very-dark-magenta-color);
   font-size: 2.5rem;
-  margin: 5vh 0;
+  font-weight: 700;
+  margin-bottom: 5%;
   line-height: normal;
 }
 
@@ -69,15 +71,66 @@ main {
   color: var(--dark-grayish-magenta-color);
 }
 
+/* ratings section */
+
+.rating-container {
+  background-color: var(--light-grayish-magenta-color);
+  margin: 5% 0;
+  height: 5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.rating-info {
+  display: block;
+  color: var(--very-dark-magenta-color);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
 .icon-star {
   content: url("images/icon-star.svg");
 }
 
+/* testimonials section */
+.testimonial-container {
+  background-color: var(--very-dark-magenta-color);
+  border-radius: 10px;
+  padding: 12%;
+  margin: 5% 0;
+  text-align: left;
+}
+
+.author-container {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 5%;
+}
+
+.author-img {
+  border-radius: 50%;
+  width: 20%;
+  margin-right: 10%;
+}
+
+.author-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-weight: 500;
+}
+
+.buyer-info {
+  color: var(--soft-pink-color);
+}
+
 /* footer */
 .attribution {
-  font-size: 11px;
-  text-align: center;
+  font-size: 0.8rem;
+  color: var(--dark-grayish-magenta-color);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--very-dark-magenta-color);
 }
