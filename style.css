@@ -17,6 +17,7 @@
   --font-size: 15px;
 }
 
+/* global */
 body {
   font-family: "League Spartan", sans-serif;
   color: var(--white-color);
@@ -30,9 +31,9 @@ main {
   max-width: 90vw;
   margin: 5rem auto;
   padding: 2rem;
-  /* border: 1px solid black; */
 }
 
+/* background images */
 .mobile-bg-top {
   position: absolute;
   top: 0;
@@ -59,7 +60,7 @@ main {
   color: var(--very-dark-magenta-color);
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 5%;
+  margin-bottom: 2rem;
   line-height: normal;
 }
 
@@ -96,10 +97,6 @@ main {
   text-align: left;
 }
 
-/* .testimonial-container:nth-last-of-type(1) {
-  margin-bottom: 0;
-} */
-
 .author-container {
   display: flex;
   align-items: stretch;
@@ -132,9 +129,8 @@ main {
   color: var(--very-dark-magenta-color);
 }
 
-/* media queriers */
-
-@media (min-width: 1280px) {
+/* media queries */
+@media (min-width: 1024px) {
   main {
     max-width: 70vw;
   }
@@ -167,7 +163,7 @@ main {
     justify-content: space-between;
   }
 
-  .intro-text {
+  .intro-text-container {
     width: 40%;
     text-align: left;
   }
