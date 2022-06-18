@@ -1,11 +1,11 @@
-# Frontend Mentor - Interactive rating component
+# Frontend Mentor - Social proof section
 
 This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA).
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -13,10 +13,12 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ## Overview
 
-### Screenshot
+### Screenshots
 
-![](./screenshots/Screenshot-1-desktop.png)
-![](./screenshots/Screenshot-2-mobile.jpg)
+<p align="center" width="100%"> 
+<img src="/screenshots/Screenshot-1-mobile.jpg" alt="" width="400px"/>
+<img src="/screenshots/Screenshot-2-desktop.PNG" alt=""/>
+</p>
 
 ### Links
 
